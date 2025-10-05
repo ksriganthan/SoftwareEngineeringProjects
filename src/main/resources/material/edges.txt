@@ -107,8 +107,8 @@ AllschwilRaemelstrasse2;BaselImLangenLoh3;22.08
 AllschwilRaemelstrasse2;AllschwilRaemelstrasse1;69.16
 BaselCarmenstrasse1;BaselAllschwilerstrasse1;76.51
 BaselAllschwilerstrasse1;BaselImLangenLoh1;45.48
-BaselGottfriedKellerStrasse1;BaselImMorgartenRing;154.8
-BaselGottfriedKellerStrasse1;BaselGottfriedKellerstrasse2;14.87
+BaselGottfriedKellerStrasse1;BaselImMorgartenring1;154.8
+BaselGottfriedKellerStrasse1;BaselGottfriedKellerStrasse2;14.87
 
 
 

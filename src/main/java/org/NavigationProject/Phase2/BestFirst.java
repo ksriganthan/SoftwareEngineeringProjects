@@ -104,8 +104,8 @@ public class BestFirst {
 			ArrayList<MapData.Destination> neighbours = adjlist.get(lastNode);
 
 			for (MapData.Destination neighbour : neighbours) {
-				totalNeighbourVisited++; // zählt alle Nachbarn
 				if (!oldnodes.contains(neighbour.node())) {
+					totalNeighbourVisited++; // zählt alle Nachbarn
 					ArrayList<String> newNodes = (ArrayList<String>) oldnodes.clone();
 					newNodes.add(neighbour.node());
 					queue.add(new Path(newNodes, distanceBetween(neighbour.node(), ziel)));

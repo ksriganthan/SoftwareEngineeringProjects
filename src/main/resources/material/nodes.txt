@@ -74,3 +74,4 @@ AllschwilBaslerstrasse3;2609322;1267328
 AllschwilBaslerstrasse2;2609339;1267359
 AllschwilSaturnstrasse1;2609229;1267171
 BaselRaemelstrasse2;2609316;1267183
+BaselImMorgartenring1;2609519;1267208
