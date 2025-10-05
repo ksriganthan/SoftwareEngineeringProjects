@@ -27,7 +27,7 @@ BaselBohrerhofstrasse1;2609334;1267040
 BaselBohrerhofstrasse2;2609257;1267080
 AllschwilNeptunstrasse1;2609183;1267099
 AllschwilMerkurstrasse1;2609158;1267051
-AllschwilMerkurstrasse2;260305;1266967
+AllschwilMerkurstrasse2;2609305;1266967
 BaselLindenplatz1;2609210;1267461
 AllschwilLerchenweg1;2608994;1267069
 BaselAllschwilerstrasse1;2609505;1267384
@@ -72,3 +72,5 @@ AllschwilWegastrasse2;2609174;1267278
 BaselSchützenweg1;2609278;1267253
 AllschwilBaslerstrasse3;2609322;1267328
 AllschwilBaslerstrasse2;2609339;1267359
+AllschwilSaturnstrasse1;2609229;1267171
+BaselRaemelstrasse2;2609316;1267183

@@ -14,7 +14,6 @@ AllschwilMerkurstrasse1;AllschwilMerkurstrasse2;170.95
 AllschwilMerkurstrasse2;BaselBohrerhofstrasse1;79.05
 AllschwilNeptunstrasse1;AllschwilSaturnstrasse1;85.56
 AllschwilSaturnstrasse1;AllschwilRaemelstrasse1;56.52
-AllschwilRaemelstrasse1;BaselCarmenstrasse1;283.69
 BaselCarmenstrasse1;BaselPasswangstrasse2;136.27
 BaselCarmenstrasse1;BaselImLangenLoh1;120.2
 BaselImLangenLoh1;BaselImLangenLoh2;65.56
@@ -23,7 +22,7 @@ BaselMythenstrasse1;BaselMorgartenring1;50.66
 BaselMythenstrasse1;BaselMythenstrasse2;98.88
 BaselMythenstrasse2;BaselGottfriedKellerStrasse3;58.16
 BaselGottfriedKellerStrasse2;BaselGottfriedKellerStrasse3;58.79
-BaselGottfriedKellerstrasse3;BaselPilatusstrasse1;49.69
+BaselGottfriedKellerStrasse3;BaselPilatusstrasse1;49.69
 BaselImLangenLoh4;BaselPilatusstrasse1;68.94
 BaselImLangenLoh4;BaselBohrerhofstrasse1;42.54
 BaselBeatengasse1;BaselImLangenLoh4;82.47
@@ -32,9 +31,9 @@ BaselRaemelstrasse2;BaselImLangenLoh3;21.99
 BaselImLangenLoh3;BaselPasswangstrasse2;69.83
 AllschwilSpitzwaldstrasse1;AllschwilNeptunstrasse2;53.76
 AllschwilNeptunstrasse2;AllschwilSaturnstrasse2;85.47
-AllschwilWegastrasse1;AllschwilSaturnstrasse2;195.25
+AllschwilSaturnstrasse1;AllschwilSaturnstrasse2;108.7
 AllschwilLerchenweg1;AllschwilMerkurstrasse1;247.89
-BaselGottfriedKellerstrasse2;BaselMorgartenring1;172.42
+BaselGottfriedKellerStrasse2;BaselMorgartenring1;172.42
 AllschwilSpitzwaldstrasse2;BaselCarmenstrasse1;132.54
 BaselBohrerhofstrasse1;BaselBohrerhofstrasse2;86.9
 BaselBohrerhofstrasse2;BaselBeatengasse1;39.39
@@ -58,7 +57,6 @@ BaselWanderstrasse4;BaselWanderstrasse3;143.5
 BaselWanderstrasse3;BaselWanderstrasse2;114.0
 BaselWanderstrasse2;BaselWanderstrasse1;156.5
 BaselWanderstrasse1;BaselGottfriedKellerStrasse1;201.1
-BaselGottfriedKellerStrasse1;BaselAllschwilerstrasse1;330.5
 BaselGottfriedKellerStrasse1;BaselStGallerRing2;162.0
 BaselStGallerRing1;BaselStGallerRing2;212.2
 BaselStGallerRing2;BaselStGallerRing3;68.1
@@ -100,11 +98,18 @@ BaselRudolfstrasse1;BaselWeiherweg3;110.4
 BaselRudolfstrasse1;BaselSpalenring1;85.0
 AllschwilWegastrasse2;AllschwilWegastrasse1;146.88
 AllschwilWegastrasse2;AllschwilJupiterstrasse1;48.9
-AllschwilWegastrasse2;AllschwilSaturnstrasse1;43.61
+AllschwilWegastrasse2;AllschwilSaturnstrasse2;43.61
 BaselSchützenweg1;AllschwilBaslerstrasse3;87.44
 BaselSchützenweg1;AllschwilRaemelstrasse1;38.46
-AllschwilJupiterstrasse1;AllschwilSchützenweg1;92.37
+AllschwilJupiterstrasse1;BaselSchützenweg1;92.37
 AllschwilBaslerstrasse2;AllschwilBaslerstrasse3;35.62
+AllschwilRaemelstrasse2;BaselImLangenLoh3;22.08
+AllschwilRaemelstrasse2;AllschwilRaemelstrasse1;69.16
+BaselCarmenstrasse1;BaselAllschwilerstrasse1;76.51
+BaselAllschwilerstrasse1;BaselImLangenLoh1;45.48
+BaselGottfriedKellerStrasse1;BaselImMorgartenRing;154.8
+BaselGottfriedKellerStrasse1;BaselGottfriedKellerstrasse2;14.87
+
 
 
 
