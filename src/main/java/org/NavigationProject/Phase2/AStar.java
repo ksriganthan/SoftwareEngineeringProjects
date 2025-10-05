@@ -38,7 +38,7 @@ public class AStar {
 		long elapsedTime = endzeit - startzeit;
 
 		double distanz = printPath(path);
-		System.out.println("Status: A*-Search funktiniert wie erwartet!");
+		System.out.println("Status: A*-Search funktioniert wie erwartet!");
 		System.out.println("---------------------------------------------------------");
 		
 		//System.out.println("Startzeit: " + startzeit);

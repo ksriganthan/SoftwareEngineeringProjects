@@ -41,7 +41,7 @@ public class BestFirst {
 		long elapsedTime = endzeit - startzeit;
 
 		double distanz = printPath(path.nodes);
-		System.out.println("Status: BestFirst-Search funktiniert wie erwartet!");
+		System.out.println("Status: BestFirst-Search funktioniert wie erwartet!");
 		System.out.println("---------------------------------------------------------");
 		
 		//System.out.println("Startzeit: " + startzeit);
