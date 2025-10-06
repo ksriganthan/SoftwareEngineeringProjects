@@ -18,6 +18,8 @@ BaselCarmenstrasse1;BaselPasswangstrasse2;136.27
 BaselCarmenstrasse1;BaselImLangenLoh1;120.2
 BaselImLangenLoh1;BaselImLangenLoh2;65.56
 BaselImLangenLoh2;BaselPasswangstrasse1;77.84
+BaselPasswangstrasse1;BaselImLangenLoh2;77.37
+BaselPasswangstrasse1;BaselImLangenLoh4;167.41
 BaselMythenstrasse1;BaselMorgartenring1;50.66
 BaselMythenstrasse1;BaselMythenstrasse2;98.88
 BaselMythenstrasse2;BaselGottfriedKellerStrasse3;58.16
@@ -25,6 +27,9 @@ BaselGottfriedKellerStrasse2;BaselGottfriedKellerStrasse3;58.79
 BaselGottfriedKellerStrasse3;BaselPilatusstrasse1;49.69
 BaselImLangenLoh4;BaselPilatusstrasse1;68.94
 BaselImLangenLoh4;BaselBohrerhofstrasse1;42.54
+AllschwilNeptunstrasse1;BaselBohrerhofstrasse2;93.02
+AllschwilNeptunstrasse2;AllschwilNeptunstrasse1;121.72
+AllschwilWegastrasse2;AllschwilRaemelstrasse1;112.37
 BaselBeatengasse1;BaselImLangenLoh4;82.47
 BaselBeatengasse1;AllschwilRaemelstrasse2;79
 BaselRaemelstrasse2;BaselImLangenLoh3;21.99

@@ -53,7 +53,7 @@ public class BeamSearch {
 		System.out.println("Anzahl geprüfter Pfade: " + totalPathsChecked);
 	    System.out.println("Anzahl Nachbarn besucht: " + totalNeighbourVisited);
 		System.out.println("Abgelehnte (wegen Cycle-Gefahr): " + rejectedBecauseOfCircle);
-		System.out.println("Weggeworfene Paths aufgrund Beam-Width (" + beamWidth +"):" + rejectedPaths);
+		System.out.println("Weggeworfene Paths aufgrund Beam-Width(" + beamWidth +"): " + rejectedPaths);
 		System.out.println("---------------------------------------------------------");
 		}
 		catch (Exception e) {
