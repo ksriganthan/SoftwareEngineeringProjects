@@ -109,6 +109,7 @@ BaselCarmenstrasse1;BaselAllschwilerstrasse1;76.51
 BaselAllschwilerstrasse1;BaselImLangenLoh1;45.48
 BaselGottfriedKellerStrasse1;BaselImMorgartenring1;154.8
 BaselGottfriedKellerStrasse1;BaselGottfriedKellerStrasse2;14.87
+BaselAllschwilerstrasse1;BaselImLangenLoh2;108.55
 
 
 
