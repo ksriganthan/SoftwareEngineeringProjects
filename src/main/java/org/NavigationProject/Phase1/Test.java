@@ -29,7 +29,7 @@ public class Test {
 		System.out.println("Alle Edges mit den Distanzen: \n".toUpperCase());
 		for(String node: edges.keySet()) {
 			for(MapData.Destination neighbour : edges.get(node)) {
-				System.out.println(node + " -> " + neighbour.node() + " (" + neighbour.distance() + ")");
+				System.out.println(node + " -> " + neighbour.node() + " (" + neighbour.distance() + "m / Speed Limit: " + neighbour.speedLimit() + ")");
 				sumEdges++;
 			}
 		}

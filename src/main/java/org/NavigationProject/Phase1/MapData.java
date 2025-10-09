@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapData {
-	private static final String EdgeFile = "/material/edges.txt";
+	private static final String EdgeFile = "/material/edgesKMH.txt";
 	private static final String NodeFile = "/material/nodes.txt";
 	private static final Map<String, ArrayList<Destination>> adjacencyList = new HashMap<>();
 	private static final Map<String, GPS> nodes = new HashMap<>();
@@ -17,8 +17,9 @@ public class MapData {
 	public record GPS(Double east, Double north) {
 	};
 
-	public record Destination(String node, double distance) {
+	public record Destination(String node, double distance, int speedLimit) {
 	};
+
 
 	public MapData() throws Exception {
 		createNodes();
@@ -52,8 +53,8 @@ public class MapData {
 			reader.lines().map(String::trim) // Leerzeichen weg
 					.filter(line -> !line.isEmpty()) // Leere Zeilen überspringen
 					.map(line -> line.split(";")).forEach(a -> {
-						addDestination(a[0], a[1], a[2]);
-						addDestination(a[1], a[0], a[2]);
+						addDestination(a[0], a[1], a[2], a[3]);
+						addDestination(a[1], a[0], a[2], a[3]);
 					});
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -61,14 +62,14 @@ public class MapData {
 		}
 	}
 
-	private void addDestination(String startNode, String endNode, String distance) {
+	private void addDestination(String startNode, String endNode, String distance, String speedLimit) {
 		ArrayList<Destination> destinations = adjacencyList.get(startNode);
 
 		if (destinations == null) {
 			destinations = new ArrayList<Destination>();
 			adjacencyList.put(startNode, destinations);
 		}
-		destinations.add(new Destination(endNode, Double.parseDouble(distance)));
+		destinations.add(new Destination(endNode, Double.parseDouble(distance), Integer.parseInt(speedLimit)));
 
 	}
 

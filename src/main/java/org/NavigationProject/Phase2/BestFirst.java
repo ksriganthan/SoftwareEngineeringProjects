@@ -48,7 +48,7 @@ public class BestFirst {
 		//System.out.println("Endzeit: " + endzeit);
 		System.out.printf("Benötigte Zeit: %.3f Millisekunden%n", elapsedTime / 1_000_000.0);
 		System.out.println("Pfadlänge: " + path.nodes().size());
-		System.out.println("Distanz: " + distanz + " Meter");
+		System.out.printf("Distanz: %, .2f Meter%n", distanz);
 		System.out.println("Anzahl geprüfter Pfade: " + totalPathsChecked);
 		System.out.println("Anzahl Nachbarn besucht: " + totalNeighbourVisited);
 		System.out.println("Abgelehnte (wegen Cycle-Gefahr): " + rejectedBecauseOfCircle);
