@@ -44,7 +44,7 @@ public class AStarSpeedLimit {
 		double gesamtDistanz = totalDistance(path);
 		
 		
-		System.out.println("Status: A*-Search funktioniert wie erwartet!");
+		System.out.println("Status: A*-Search mit Speed-Limits funktioniert wie erwartet!");
 		System.out.println("---------------------------------------------------------");
 		
 		//System.out.println("Startzeit: " + startzeit);
@@ -52,7 +52,7 @@ public class AStarSpeedLimit {
 		System.out.printf("Benötigte Zeit: %.3f Millisekunden%n", elapsedTime / 1_000_000.0);
 		System.out.println("Pfadlänge: " + path.size());
 		System.out.printf("Gesamtzeit: %.2f Minuten\n", gesamtZeit / 60 );
-		System.out.printf("Distanz: %, .2f Meter%n", totalDistance(path));
+		System.out.printf("Distanz: %, .2f Meter%n", gesamtDistanz);
 		System.out.println("Anzahl geprüfter Pfade: " + totalPathsChecked);
 		System.out.println("Anzahl Nachbarn besucht: " + totalNeighbourVisited);
 		System.out.println("Abgelehnte (wegen Cycle-Gefahr): " + rejectedBecauseOfCircle);
