@@ -29,9 +29,11 @@ public class BreadthFirst {
     static int neighborsVisited = 0;   // Enqueued Nachbarn
     static int rejectedCycles = 0;     // Verworfen (Cycle/Visited)
 
+    private static final String start = "AllschwilBaslerstrasse1";
+    private static final String end   = "BaselSpalenring1";
+
     public static void main(String[] args) {
-        String start = "AllschwilBaslerstrasse1";
-        String end   = "BaselSpalenring1";
+
 
         tStart = System.nanoTime();
         ArrayList<String> path = breadthFirst(start, end);
@@ -48,7 +50,7 @@ public class BreadthFirst {
             return null;
         }
 
-        // FIFO-Struktur mit Pfaden (wie in deiner Vorlage)
+        // FIFO-Struktur mit Pfaden
         ArrayList<ArrayList<String>> paths = new ArrayList<>();
         ArrayList<String> startingPath = new ArrayList<>();
         startingPath.add(start);

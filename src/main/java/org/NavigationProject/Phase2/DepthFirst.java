@@ -25,8 +25,8 @@ public class DepthFirst {
     static int neighborsVisited = 0; // Anzahl tatsächlich besuchter Nachbarn (rekursiv betreten)
     static int rejectedCycles = 0;   // abgelehnt wegen Zyklus (bereits im aktuellen Pfad)
 
-    static String start = "AllschwilBaslerstrasse1";
-    static String end = "BaselSpalenring1";
+    private static final String start = "AllschwilBaslerstrasse1";
+    private static final String end = "BaselSpalenring1";
 
 
     public static void main(String[] args) {
