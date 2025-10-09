@@ -25,10 +25,14 @@ public class DepthFirst {
     static int neighborsVisited = 0; // Anzahl tatsächlich besuchter Nachbarn (rekursiv betreten)
     static int rejectedCycles = 0;   // abgelehnt wegen Zyklus (bereits im aktuellen Pfad)
 
+    static String start = "AllschwilBaslerstrasse1";
+    static String end = "BaselSpalenring1";
+
+
     public static void main(String[] args) {
         tStart = System.nanoTime();
 
-        ArrayList<String> path = depthFirst("AllschwilBaslerstrasse1", "BaselSpalenring1");
+        ArrayList<String> path = depthFirst(start, end);
 
         tEnd = System.nanoTime();
         printPath(path);
@@ -106,6 +110,9 @@ public class DepthFirst {
     }
 
     private static void printPath(ArrayList<String> path) {
+        System.out.println("Solution for Depth First Search from " + start + " to " + end + ":");
+        System.out.println("--------------------------------------------------------------------------------------------");
+
         if (path == null || path.isEmpty()) {
             System.out.println("Kein Pfad gefunden.");
             System.out.println("=========================================");
@@ -113,6 +120,7 @@ public class DepthFirst {
             System.out.println("---------------------------------------------------------");
             return;
         }
+
         for (int i = 0; i < path.size(); i++) {
             System.out.printf("%d. Stopp:\t%s%n", i + 1, path.get(i));
         }
