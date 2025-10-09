@@ -1,4 +1,4 @@
-package org.NavigationProject.Phase3;
+package org.NavigationProject.Phase3.NewAlgorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;
